@@ -1,4 +1,5 @@
 import React from "react";
+import withRedBorder from "./withRedBorder";
 
 const Hello = () => {
     return (
@@ -8,4 +9,4 @@ const Hello = () => {
     );
 }
 
-export default Hello;
+export default withRedBorder(Hello);
